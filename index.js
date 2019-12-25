@@ -12,7 +12,7 @@ function makeSound(key)
   switch(key)
   {
     case 'w':
-              audio = new Audio('../sounds/crash.mp3');
+              audio = new Audio('sounds/crash.mp3');
               audio.play();
               break;
     case 'a':
